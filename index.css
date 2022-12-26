@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ,-segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 5px;
+    
+    text-align: center;
+    color: white;
+}
+
+.points {
+    display: flex;
+    justify-content: space-around;
+    
+    font-family: 'Cursed Timer ULiL', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    color: #F94F6D;
+}
+
+#home-el {
+    background-color: #080001;
+    width: 25%;
+    height: 100px;
+    align-content: center;
+
+}
+
+#guest-el {
+    background-color: #080001;
+    width: 25%;
+    height: 100px;
+    align-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    /* or 155% */
+    text-align: center;
+    align-content: center;
+    color: #9AABD8;
+}
